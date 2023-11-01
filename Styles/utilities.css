@@ -10,7 +10,9 @@
   box-sizing: border-box;
 }
 
-/* Parallax Utilities */
+/* Main Content Reusable Styles */
+
+/* Main Shoe Parallax Utilities */
 
 .parallax-container {
   width: 100%;
@@ -24,11 +26,24 @@
   background-attachment: fixed;
 }
 
-/* Main shoe page utilities */
+/* Main Shoe page utilities */
 
 .shoe-description-container {
   width: 40%;
   display: flex;
   flex-direction: column;
   padding: 5rem;
+}
+
+.shoe-description-header {
+  font-family: "Abril Fatface", serif;
+}
+
+.shoe-description-decade {
+  font-family: "Abril Fatface", serif;
+  font-style: bold;
+}
+
+.shoe-description-paragraph {
+  font-family: "Lato", sans-serif;
 }
