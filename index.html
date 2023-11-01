@@ -8,9 +8,19 @@
     <link rel="stylesheet" href="./Styles/header.css">
     <link rel="stylesheet" href="./Styles/index.css" />
     <title>Retro Kicks</title>
-    <!-- test test -->
   </head>
   <body>
+    <div class="sidebar">
+      <ul>
+        <li><a href="#1960s">1960</a></li>
+        <li><a href="#1970s">1970</a></li>
+        <li><a href="#1980s">1980</a></li>
+        <li><a href="#1960s">1960</a></li>
+        <li><a href="#1990s">1990</a></li>
+        <li><a href="#2000s">2000</a></li>
+        <li><a href="#2010s">2010</a></li>  
+      </ul>
+    </div>
     <!-- Header Section -->
 
     <section class="hero">
@@ -18,20 +28,19 @@
           <h1 class="logo">RetroKicks</h1>
           <nav>
               <ul class="nav-list">
-                  <li class="active nav-item">Home</li>
-                  <li class="nav-item">About</li>
-                  <li class="nav-item">Team</li>
+                  <li class="active nav-item"><a href="index.html">Home</a></li>
+                  <li class="nav-item"><a href="about.html">About</a></li>
+                  <li class="nav-item"><a href="reviews.html">Reviews</a></li>
               </ul>
           </nav>
       </header>
 
       <main>
-          <h1>Retro Kicks</h1>
           <div class="shoes-wrapper">
-              <div class="layer front-layer">
+              <div class=" front-layer">
                   <img src="./Assets/converse.png">
               </div>
-              <div class="layer back-layer">
+              <div class=" back-layer">
                   <img src="./Assets/yeezy.png">
                   <img src="./Assets/nike.png">
               </div>
@@ -45,7 +54,7 @@
 
     <!-- Main shoe parallax scroll section -->
     <section>
-      <div class="converse-container parallax-container">
+      <div id="1960s" class="converse-container parallax-container">
         <div class="shoe-description-container converse-description">
           <h1 class="converse-description-header">
             Converse <span class="converse-description-decade">1960s</span>
@@ -60,7 +69,7 @@
         </div>
       </div>
   
-      <div class="nike-cortez-container parallax-container">
+      <div id="1970s" class="nike-cortez-container parallax-container">
         <div class="shoe-description-container nike-description">
           <h1 class="nike-description-header">
             Nike Cortez <span class="nike-description-decade">1970s</span>
