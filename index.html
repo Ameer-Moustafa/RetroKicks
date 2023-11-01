@@ -1,204 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./Assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./Assets/favicon//favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./Assets/favicon//favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link href="" rel="stylesheet" />
+    <link rel="stylesheet" href="./Styles/utilities.css" />
+    <link rel="stylesheet" href="./Styles/header.css" />
+    <link rel="stylesheet" href="./Styles/index.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+    <title>Retro Kicks</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="apple-touch-icon" sizes="180x180" href="./Assets/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./Assets/favicon//favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./Assets/favicon//favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link
-    href=""
-    rel="stylesheet">
-  <link rel="stylesheet" href="./Styles/utilities.css" />
-  <link rel="stylesheet" href="./Styles/header.css">
-  <link rel="stylesheet" href="./Styles/index.css" />
-  <link rel="stylesheet" href="./Styles/footer.css">
-  <title>Retro Kicks</title>
-</head>
+  <body>
+    <div class="sidebar">
+      <ul>
+        <li><a href="#1960s">1960</a></li>
+        <li><a href="#1970s">1970</a></li>
+        <li><a href="#1980s">1980</a></li>
+        <li><a href="#1990s">1990</a></li>
+        <li><a href="#2000s">2000</a></li>
+        <li><a href="#2010s">2010</a></li>
+      </ul>
+    </div>
+    <!-- Header Section -->
 
-<body>
-  <div class="sidebar">
-    <ul>
-      <li><a href="#1960s">1960</a></li>
-      <li><a href="#1970s">1970</a></li>
-      <li><a href="#1980s">1980</a></li>
-      <li><a href="#1990s">1990</a></li>
-      <li><a href="#2000s">2000</a></li>
-      <li><a href="#2010s">2010</a></li>
-    </ul>
-  </div>
-  <!-- Header Section -->
+    <section class="hero">
+      <header>
+        <h1 class="logo">RetroKicks</h1>
+        <nav>
+          <ul class="nav-list">
+            <li class="active nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="reviews.html">Reviews</a></li>
+          </ul>
+        </nav>
+      </header>
 
-  <section class="hero">
-    <header>
-      <h1 class="logo">RetroKicks</h1>
-      <nav>
-        <ul class="nav-list">
-          <li class="active nav-item"><a href="index.html">Home</a></li>
-          <li class="nav-item"><a href="about.html">About</a></li>
-          <li class="nav-item"><a href="reviews.html">Reviews</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      <div class="shoes-wrapper">
-        <div class=" front-layer">
-          <img src="./Assets/converse.png">
+      <main>
+        <div class="shoes-wrapper">
+          <div class="front-layer">
+            <img src="./Assets/converse.png" />
+          </div>
+          <div class="back-layer">
+            <img src="./Assets/yeezy.png" />
+            <img src="./Assets/nike.png" />
+          </div>
         </div>
-        <div class=" back-layer">
-          <img src="./Assets/yeezy.png">
-          <img src="./Assets/nike.png">
+      </main>
+
+      <img
+        src="./Assets/mouse scroll down icon.png"
+        alt=""
+        class="scroll-down-img"
+      />
+    </section>
+
+    <!-- Main shoe parallax scroll section -->
+    <section>
+      <!-- Converse -->
+      <div id="1960s" class="converse-container parallax-container">
+        <div class="shoe-description-container converse-description">
+          <h1 class="converse-description-header">
+            Converse
+            <span class="shoe-description-decade converse-description-decade"
+              >1960s</span
+            >
+          </h1>
+
+          <p class="converse-description-paragraph">
+            In the 1960s, Converse released their classic Chuck Taylors in
+            bright colors for the athletes that wanted to match their shoes to
+            their team colors. The new ability to rep your team colors made
+            Converse the most popular shoe of the '60s.
+          </p>
         </div>
       </div>
 
-    </main>
+      <!-- Nike Cortez -->
+      <div id="1970s" class="nike-cortez-container parallax-container">
+        <div class="shoe-description-container nike-description">
+          <h1 class="nike-description-header">
+            Nike Cortez
+            <span class="shoe-description-decade nike-description-decade"
+              >1970s</span
+            >
+          </h1>
 
-    <img src="./Assets/mouse scroll down icon.png" alt="" class="scroll-down-img">
-  </section>
-
-
-  <!-- Main shoe parallax scroll section -->
-  <section>
-    <!-- Converse -->
-    <div id="1960s" class="converse-container parallax-container">
-      <div class="shoe-description-container converse-description">
-        <h1 class="converse-description-header">
-          Converse
-          <span class="shoe-description-decade converse-description-decade">1960s</span>
-        </h1>
-
-        <p class="converse-description-paragraph">
-          In the 1960s, Converse released their classic Chuck Taylors in
-          bright colors for the athletes that wanted to match their shoes to
-          their team colors. The new ability to rep your team colors made
-          Converse the most popular shoe of the '60s.
-        </p>
+          <p class="nike-description-paragraph">
+            In the '70s, Nike released the first pair of Nike Cortex sneakers.
+            Coincidentally, they were also one of the first styles from the
+            brand to have the iconic swoosh logo. The sneaker was seen on
+            athletes and celebrities alike, including Farrah Fawcett in the 1976
+            show Charlie's Angels.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <!-- Nike Cortez -->
-    <div id="1970s" class="nike-cortez-container parallax-container">
-      <div class="shoe-description-container nike-description">
-        <h1 class="nike-description-header">
-          Nike Cortez
-          <span class="shoe-description-decade nike-description-decade">1970s</span>
-        </h1>
-
-        <p class="nike-description-paragraph">
-          In the '70s, Nike released the first pair of Nike Cortex sneakers.
-          Coincidentally, they were also one of the first styles from the
-          brand to have the iconic swoosh logo. The sneaker was seen on
-          athletes and celebrities alike, including Farrah Fawcett in the 1976
-          show Charlie's Angels.
-        </p>
+      <!-- Air Jordans -->
+      <div id="1980s" class="parallax-container air-jordan-container">
+        <div class="shoe-description-container">
+          <h1 class="shoe-description-header air-jordan-description-header">
+            Air Jordan
+            <span class="shoe-description-decade air-jordan-description-decade"
+              >1980s</span
+            >
+          </h1>
+          <p
+            class="shoe-description-paragraph air-jordan-description-paragraph"
+          >
+            In 1985, Nike released the Air Jordan sneaker as part of a deal with
+            then-Chicago Bulls player Michael Jordan. In just two months, Nike
+            sold $70 million worth of the sneakers, which skyrocketed even
+            further after Jordan won Rookie of the Year that same year.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <!-- Air Jordans -->
-    <div id="1980s" class="parallax-container air-jordan-container">
-      <div class="shoe-description-container">
-        <h1 class="shoe-description-header air-jordan-description-header">
-          Air Jordan
-          <span class="shoe-description-decade air-jordan-description-decade">1980s</span>
-        </h1>
-        <p class="shoe-description-paragraph air-jordan-description-paragraph">
-          In 1985, Nike released the Air Jordan sneaker as part of a deal with
-          then-Chicago Bulls player Michael Jordan. In just two months, Nike
-          sold $70 million worth of the sneakers, which skyrocketed even
-          further after Jordan won Rookie of the Year that same year.
-        </p>
+      <!-- Air Max -->
+      <div id="1990s" class="parallax-container air-max-container">
+        <div class="shoe-description-container">
+          <h1 class="shoe-description-header air-max-description-header">
+            Air Max
+            <span class="shoe-description-decade air-max-description-decade"
+              >1990s</span
+            >
+          </h1>
+          <p class="shoe-description-paragraph air-max-description-paragraph">
+            Nike continued their streak of having the most popular sneakers into
+            the '90s with the release of the Air Max 90. While there are over 50
+            models of the shoe today, they're easily recognizable by the clear
+            window allowing you to see the pressurized air in the heel.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <!-- Air Max -->
-    <div id="1990s" class="parallax-container air-max-container">
-      <div class="shoe-description-container">
-        <h1 class="shoe-description-header air-max-description-header">
-          Air Max
-          <span class="shoe-description-decade air-max-description-decade">1990s</span>
-        </h1>
-        <p class="shoe-description-paragraph air-max-description-paragraph">
-          Nike continued their streak of having the most popular sneakers into
-          the '90s with the release of the Air Max 90. While there are over 50
-          models of the shoe today, they're easily recognizable by the clear
-          window allowing you to see the pressurized air in the heel.
-        </p>
+      <!-- Vans -->
+      <div id="2000s" class="parallax-container vans-container">
+        <div class="shoe-description-container">
+          <h1 class="shoe-description-header vans-description-header">
+            Vans
+            <span class="shoe-description-decade vans-description-decade"
+              >2000s</span
+            >
+          </h1>
+          <p class="shoe-description-paragraph vans-description-paragraph">
+            The most popular Vans shoe in 2000 was the Vans Slip-On. This
+            classic style, originally released in 1977, was iconic for its
+            simple design and canvas upper. It featured a low profile, slip-on
+            silhouette, with a padded collar for added comfort. The shoe was
+            available in a range of colors, favored by skaters and celebrities
+            alike.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <!-- Vans -->
-    <div id="2000s" class="parallax-container vans-container">
-      <div class="shoe-description-container">
-        <h1 class="shoe-description-header vans-description-header">
-          Vans
-          <span class="shoe-description-decade vans-description-decade">2000s</span>
-        </h1>
-        <p class="shoe-description-paragraph vans-description-paragraph">
-          The most popular Vans shoe in 2000 was the Vans Slip-On. This
-          classic style, originally released in 1977, was iconic for its
-          simple design and canvas upper. It featured a low profile, slip-on
-          silhouette, with a padded collar for added comfort. The shoe was
-          available in a range of colors, favored by skaters and celebrities
-          alike.
-        </p>
+      <!-- Yeezies -->
+      <div id="2010s" class="parallax-container yeezies-container">
+        <div class="shoe-description-container">
+          <h1 class="shoe-description-header yeezies-description-header">
+            Yeezy Boost
+            <span class="shoe-description-decade yeezies-description-decade"
+              >2010s</span
+            >
+          </h1>
+          <p class="shoe-description-paragraph yeezies-description-paragraph">
+            Dubbed the “Roshe killer” by Ye, the adidas Yeezy Boost 350 comes
+            equipped with innovative technology. The upper utilizes adidas’
+            Primeknit and features an ultra-comfortable Boost cushioning system.
+            Its sock-like fit was perfect for the era in which it was created,
+            as the Ultraboost and NMD dominated sneaker culture, and has since
+            become a staple of the sneaker scene.
+          </p>
+        </div>
       </div>
-    </div>
-
-    <!-- Yeezies -->
-    <div id="2010s" class="parallax-container yeezies-container">
-      <div class="shoe-description-container">
-        <h1 class="shoe-description-header yeezies-description-header">
-          Yeezy Boost
-          <span class="shoe-description-decade yeezies-description-decade">2010s</span>
-        </h1>
-        <p class="shoe-description-paragraph yeezies-description-paragraph">
-          Dubbed the “Roshe killer” by Ye, the adidas Yeezy Boost 350 comes
-          equipped with innovative technology. The upper utilizes adidas’
-          Primeknit and features an ultra-comfortable Boost cushioning system.
-          Its sock-like fit was perfect for the era in which it was created,
-          as the Ultraboost and NMD dominated sneaker culture, and has since
-          become a staple of the sneaker scene.
-        </p>
-      </div>
-    </div>
-  </section>
+    </section>
     <footer>
       <div class="footer-content">
-          <h1>RetroKicks</h1>
-          <p>Shoes By The Decade</p>
-          <p>DAHRA CO.</p>
-          <ul class="socials">
-              <li><a href="#"><i class="bx bxl-meta"></i></a></li>
-              <li><a href="#"><i class="bx bxl-instagram"></i></a></li>
-              <li><a href="#"><i class="bx bxl-twitter"></i></a></li>
-          </ul>
+        <h1>RetroKicks</h1>
+        <p>Shoes By The Decade</p>
+        <p>DAHRA CO.</p>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="bx bxl-meta"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+          </li>
+        </ul>
       </div>
       <div class="hr-line"></div>
 
       <div class="footer-text">
-          <div class="picture-lower">
-              <img src="/Assets\nike logo.png" alt="Nike Logo">
-          </div>
-          <div class="picture-lower">
-              <img src="/Assets\adidas logo.png" alt="Addidas Logo">
-          </div>
-          <div class="picture">
-              <img src="/Assets\converse logo.png" alt="Converse Logo" href="#">
-          </div>
-          <div class="picture-lower">
-            <img src="/Assets\vans-logo.png" alt="Vans Logo" href="#">
+        <div class="picture-lower">
+          <img src="/Assets\nike logo.png" alt="Nike Logo" />
+        </div>
+        <div class="picture-lower">
+          <img src="/Assets\adidas logo.png" alt="Addidas Logo" />
+        </div>
+        <div class="picture">
+          <img src="/Assets\converse logo.png" alt="Converse Logo" href="#" />
+        </div>
+        <div class="picture-lower">
+          <img src="/Assets\vans-logo.png" alt="Vans Logo" href="#" />
         </div>
       </div>
-      <div class="footer-content-container">
-          
-      </div>
+      <div class="footer-content-container"></div>
       <div class="footer-bottom">
-          <p>2023 RetroKicks</p>
+        <p>2023 RetroKicks</p>
       </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
