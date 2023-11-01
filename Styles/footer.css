@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap");
 footer {
     background: #111;
     color: #fff;
@@ -65,7 +65,7 @@ p {
 }
 
 .socials a:hover {
-    color: aqua;
+    color: tomato;
 }
 
 .footer-bottom {
@@ -88,9 +88,17 @@ p {
     font-weight: 200;
 }
 
-.picture {
+.picture .picture-lower{
     flex: 33.33%;
     max-width: 100%;
     height: auto;
     background-color: #111;
+    
+    
+}
+
+.picture-lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
