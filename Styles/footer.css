@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap");
+footer {
+    background: #111;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+
+.hr-line {
+    width: 99%;
+    border: 0.15vw solid #fff;
+    margin: 2px 0;
+}
+.footer-text {
+    display: flex;
+}
+h1 {
+    font-family: 'Abril Fatface', serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.9rem;
+    font-weight: 450;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 6px auto;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    font-size: 1.8rem;
+}
+
+.socials a:hover {
+    color: tomato;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    opacity: 0.7;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-weight: 200;
+}
+
+.picture .picture-lower{
+    flex: 33.33%;
+    max-width: 100%;
+    height: auto;
+    background-color: #111;
+    
+    
+}
+
+.picture-lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
