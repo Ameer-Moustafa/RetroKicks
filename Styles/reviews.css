@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap");
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url("../Assets/reviewimages/bg123.jpg");
+
+  background-attachment: fixed;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: monospace;
+}
+.nav-list {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20vw;
+  height: 5vh;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  list-style: none;
+  font-weight: 400;
+}
+
+.active {
+  border-bottom: 2px solid;
+}
+
+.nav-item {
+  color: black !important;
+  position: relative;
+  font-size: 1.1rem;
+  transition: all 0.25s ease-in-out;
+  user-select: none;
+}
+
+.nav-item:not(.active)::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  transition: all 0.25s ease-in-out;
+
+  background-color: tomato;
+}
+
+.nav-item:not(.active):hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.nav-item:hover:not(.active)::before {
+  width: 100%;
+}
+h1 {
+  font-size: 50px;
+  font-family: "Abril Fatface", serif;
+}
+p {
+  font-size: 25px;
+  filter: brightness(1.9);
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+.main {
+  background: rgb(255, 255, 255/0.5);
+  backdrop-filter: blur(30px);
+  width: 50vw;
+  margin: 0 auto;
+  min-height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  background-attachment: fixed;
+  margin-top: 100px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container img {
+  width: 200px;
+  height: 150px;
+  padding: 0 5px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .container h1 {
+    font-size: 25px;
+  }
+  .container p {
+    font-size: 18px;
+  }
+  .main {
+    width: 90vw;
+  }
+  .main.img-bg,
+  .main.img-bg-2 {
+    background-size: auto;
+  }
+  .logo {
+    margin-top: 410px;
+    margin-left: 100px;
+  }
+  .nav-list {
+    position: fixed;
+    top: 0;
+
+    width: 90%;
+  }
+
+  .nav-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
