@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap");
 
+section{
+    padding: 50px 10%;
+}
+
 .about-section{
     background: url('../Assets/ShoeMaker.jpg') no-repeat left;
     background-size: 55%;
