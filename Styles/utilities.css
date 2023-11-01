@@ -1,7 +1,3 @@
-/* Importing Fonts */
-
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap");
-
 /* CSS Reset */
 
 * {
@@ -10,9 +6,20 @@
   box-sizing: border-box;
 }
 
-/* Main Content Reusable Styles */
+html{
+  scroll-behavior: smooth;
+}
 
-/* Main Shoe Parallax Utilities */
+body{
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Parallax Utilities */
 
 .parallax-container {
   width: 100%;
@@ -26,24 +33,11 @@
   background-attachment: fixed;
 }
 
-/* Main Shoe page utilities */
+/* Main shoe page utilities */
 
 .shoe-description-container {
   width: 40%;
   display: flex;
   flex-direction: column;
   padding: 5rem;
-}
-
-.shoe-description-header {
-  font-family: "Abril Fatface", serif;
-}
-
-.shoe-description-decade {
-  font-family: "Abril Fatface", serif;
-  font-style: bold;
-}
-
-.shoe-description-paragraph {
-  font-family: "Lato", sans-serif;
 }

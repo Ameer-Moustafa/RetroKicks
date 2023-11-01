@@ -1,3 +1,49 @@
+/* Sidebar Styles */
+
+.sidebar{
+  height: 100vh;
+  position: fixed;
+  padding: 0 20px;
+}
+
+.sidebar ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+  list-style: none;
+}
+
+.sidebar li{
+  position: relative;
+}
+
+/* Adding lines after each list item except for the last one */
+.sidebar li:not(li:last-of-type)::after{
+  content: '';
+  position: absolute;
+  height: 10vh;
+  width: 2px;
+  background-color: white;
+  box-shadow: 0px 0px 2px rgba(0,0,0,1);
+  left: 50%;
+  bottom: -11vh;
+  
+}
+
+.sidebar li a{
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 0px 1px rgba(0,0,0,1);
+  transition: all 0.25s ease-in-out
+}
+
+.sidebar li a:hover{
+  color: lightblue
+}
+
 /* Main Shoe Section */
 
 /* Converse Styles */
