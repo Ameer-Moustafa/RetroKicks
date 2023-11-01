@@ -1,8 +1,6 @@
 body {
   background-image: url("../Assets/reviewimages/bg123.jpg");
-
   background-attachment: fixed;
-
   margin-bottom: 100px;
   font-family: monospace;
 }
