@@ -44,34 +44,27 @@
   color: lightblue
 }
 
-/* Shoe Section Styles */
+/* Main Shoe Section */
 
 /* Converse Styles */
 .converse-container {
   background-color: #fdfbfc;
-  background-image: url("../Assets/Converse.webp") ;
-}
-
-.converse-description {
-  color: black;
+  background-image: url("../Assets/Converse.webp");
 }
 
 .converse-description-header {
-  font-family: "Abril Fatface", serif;
-  font-size: 7rem;
+  color: black;
+  font-size: 4.5rem;
 }
 
 .converse-description-decade {
-  font-family: "Abril Fatface", serif;
   color: black;
-  font-style: bold;
   font-size: 1.5rem;
 }
 
 .converse-description-paragraph {
-  font-family: "Lato", sans-serif;
   font-size: 1.5rem;
-  color: #001f3f;
+  color: #d2042d;
 }
 
 /* Nike Styles */
@@ -80,25 +73,101 @@
   background-image: url("../Assets/nike-cortez.jpg");
 }
 
-.nike-description {
-  color: black;
-}
-
 .nike-description-header {
-  font-family: "Abril Fatface", serif;
   color: #d19e5f;
-  font-size: 5.7rem;
+  font-size: 3.7rem;
 }
 
 .nike-description-decade {
-  font-family: "Abril Fatface", serif;
   color: #d19e5f;
-  font-style: bold;
   font-size: 1.5rem;
 }
 
 .nike-description-paragraph {
-  font-family: "Lato", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: white;
+}
+
+/* Nike Air Jordans Styles */
+
+.air-jordan-container {
+  background-image: url("../Assets/Air-Jordan-retro.png");
+  background-color: #8f1a33;
+}
+
+.air-jordan-description-header {
+  font-size: 3.7rem;
+  color: white;
+}
+
+.air-jordan-description-decade {
+  font-size: 1.5rem;
+}
+
+.air-jordan-description-paragraph {
+  font-size: 1.5rem;
+  color: #1a1a1a;
+}
+
+/* Nike Air Max Styles */
+
+.air-max-container {
+  background-image: url("../Assets/Air-max.png");
+  background-color: #632598;
+}
+
+.air-max-description-header {
+  font-size: 3.7rem;
+  color: #259863;
+}
+
+.air-max-description-decade {
+  font-size: 1.5rem;
+}
+
+.air-max-description-paragraph {
+  font-size: 1.5rem;
+  color: #9d9da1;
+}
+
+/* Vans Styles */
+
+.vans-container {
+  background-image: url("../Assets/Vans.png");
+  background-color: #1f1f1f;
+}
+
+.vans-description-header {
+  font-size: 3.7rem;
+  color: #ae031d;
+}
+
+.vans-description-decade {
+  font-size: 1.5rem;
+}
+
+.vans-description-paragraph {
+  font-size: 1.5rem;
+  color: #9d9da1;
+}
+
+/* Yeezies Styles */
+
+.yeezies-container {
+  background-image: url("../Assets/yeezies.png");
+  background-color: #ebeae0;
+}
+
+.yeezies-description-header {
+  font-size: 3.7rem;
+  color: #ff996b;
+}
+
+.yeezies-description-decade {
+  font-size: 1.5rem;
+}
+
+.yeezies-description-paragraph {
+  font-size: 1.4rem;
+  color: #726256;
 }
