@@ -11,8 +11,7 @@
 }
 
 .converse-description-header {
-  font-family: "Abril Fatface", serif;
-  font-size: 5.5rem;
+  font-size: 4.5rem;
 }
 
 .converse-description-decade {
@@ -34,14 +33,10 @@
   background-image: url("../Assets/nike-cortez.jpg");
 }
 
-.nike-description {
-  color: black;
-}
-
 .nike-description-header {
   font-family: "Abril Fatface", serif;
   color: #d19e5f;
-  font-size: 4.5rem;
+  font-size: 3.7rem;
 }
 
 .nike-description-decade {
@@ -52,9 +47,13 @@
 }
 
 .nike-description-paragraph {
-  font-family: "Lato", sans-serif;
   font-size: 1.5rem;
   color: white;
 }
 
 /* Nike Air Jordans Styles */
+
+.air-jordan-container {
+  background-image: url("../Assets/Air-Jordan-retro.png");
+  background-color: #8f1a33;
+}
