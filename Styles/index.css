@@ -104,3 +104,24 @@
   font-size: 1.5rem;
   color: #9d9da1;
 }
+
+/* Yeezies Styles */
+
+.yeezies-container {
+  background-image: url("../Assets/yeezies.png");
+  background-color: #ebeae0;
+}
+
+.yeezies-description-header {
+  font-size: 3.7rem;
+  color: #ff996b;
+}
+
+.yeezies-description-decade {
+  font-size: 1.5rem;
+}
+
+.yeezies-description-paragraph {
+  font-size: 1.4rem;
+  color: #726256;
+}
