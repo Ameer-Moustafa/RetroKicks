@@ -37,6 +37,11 @@
   font-family: "Abril Fatface", serif;
 }
 
+.shoe-description-decade {
+  font-family: "Abril Fatface", serif;
+  font-style: bold;
+}
+
 .shoe-description-paragraph {
   font-family: "Lato", sans-serif;
 }
