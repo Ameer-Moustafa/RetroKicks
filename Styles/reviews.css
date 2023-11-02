@@ -5,6 +5,14 @@ body {
   font-family: monospace;
 }
 
+h1 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-top: 1rem;
+}
+
 .nav-list {
   display: flex;
   align-items: center;
